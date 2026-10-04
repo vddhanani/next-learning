@@ -1,0 +1,5 @@
+Explain Agent (Claude Haiku / GPT‑5 mini) = best for your Next.js learning basics.
+
+Code Agent (GPT‑5.6 Luna / Terra) = good for coding practice.
+
+Plan Agent (Claude Opus / GPT‑6 Sol) = only when you’re ready for full project planning, but it costs more credits.
