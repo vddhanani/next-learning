@@ -1,3 +1,5 @@
+import styles from "./PropsExample.module.css";
+
 export default function PropsExample({
   title,
   description,
@@ -6,7 +8,10 @@ export default function PropsExample({
   description: string;
 }) {
   return (
-    <section className="example-card">
+    // className={styles.card}
+    // className={styles.card + " " + styles.highlighted}
+    // className={`${styles.card} ${styles.highlighted}`}
+    <section className={`${styles.card} ${styles.highlighted}`}>
       <h2>{title}</h2>
       <p>{description}</p>
       <small>it's PropsExample file</small>

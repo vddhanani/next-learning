@@ -1,4 +1,5 @@
 import PropsExample from "../components/PropsExample";
+import PublicImageExample  from "../components/PublicImageExample";
 import Link from "next/link";
 // function Welcome({ title,description }: { description: string; title: string;}) {
 //   return (
@@ -37,6 +38,7 @@ export default function Home() {
  return (
     <main className="page-content">
       {/* <Link href="/about">About page</Link> */}
+      <PublicImageExample />
       <h1>My Learning Demo</h1>
 
      {examples.map((example) => (
