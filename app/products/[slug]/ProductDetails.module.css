@@ -1,0 +1,29 @@
+.page {
+  max-width: 1000px;
+  margin: 48px auto;
+  padding: 0 24px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.image {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .product {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px;
+  }
+}

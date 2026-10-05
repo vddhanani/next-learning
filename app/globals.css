@@ -50,6 +50,10 @@ body {
   border-radius: 8px;
 }
 
+main {
+  flex: 1;
+}
+
 @media (max-width: 600px) {
   .site-header {
     gap: 12px;

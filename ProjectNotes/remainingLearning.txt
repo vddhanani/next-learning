@@ -1,0 +1,9 @@
+Remaining learning plan for the Gail International-inspired static website:
+
+1. Create the Contact route and add it to the shared Header.
+2. Build the Home page sections: company intro, hero/banner, featured products, and contact call-to-action.
+3. Improve About and Products pages with accurate, verified business/product content.
+4. Refine styling and responsive behavior across all pages; check shared Header and Footer.
+5. Add a contact form only if needed. A static form needs a backend or form service to send messages.
+6. Learn Client Components when adding browser-side interactions such as state or event handlers.
+7. Learn production build and deployment later; these are not needed for the current learning stage.

@@ -4,6 +4,7 @@ export default function Header() {
   return (
     <header className="site-header">
         <Link className="nav-link" href="/">Home</Link>
+        <Link className="nav-link" href="/products">Products</Link>
         <Link className="nav-link" href="/about">About</Link>
     </header>
   );
